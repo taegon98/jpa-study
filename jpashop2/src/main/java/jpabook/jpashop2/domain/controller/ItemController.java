@@ -1,10 +1,9 @@
-package jpabook.jpashop2.controller;
+package jpabook.jpashop2.domain.controller;
 
 import jpabook.jpashop2.domain.Item.Book;
 import jpabook.jpashop2.domain.Item.Item;
 import jpabook.jpashop2.service.ItemService;
 import jpabook.jpashop2.service.UpdateItemDto;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
